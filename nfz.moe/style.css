@@ -1,22 +1,11 @@
 /*! Spectre.css Docs | MIT License | github.com/picturepan2/spectre */
 
-.docs-navbar {
-    height: 4rem;
+.btn-contact {
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 200;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    background: rgba(248, 249, 250, .65);
-    left: 0;
-}
-
-.docs-navbar .btn {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 2rem;
+    padding: 1.4rem;
+    height: auto;
 }
 
 .btn .feather {
@@ -36,7 +25,7 @@
 }
 
 .section-projects {
-    padding: 3.5rem .5rem 3.5rem .5rem;
+    padding: 3.5rem .5rem .5rem .5rem;
 }
 
 .section-projects .card {
@@ -135,7 +124,7 @@
 .hoverable:focus,
 .hoverable:hover {
     box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2), 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12);
-    transform: scale(1.1);
+    transform: scale(1.08);
     transition: box-shadow .8s cubic-bezier(.23, 1, .32, 1), transform .8s cubic-bezier(.23, 1, .32, 1)
 }
 
@@ -145,4 +134,8 @@
 
 .text-color {
     color: #5a666f;
+}
+
+#contact-modal p {
+    margin: 0 0 .6rem;
 }
